@@ -9,7 +9,6 @@ body {
 #container {
     width: 100%;
     margin: 0px;
-		/*margin-top: -50px;*/
     display:inline-block;
     visibility: hidden;
 
@@ -40,17 +39,22 @@ body {
     position: relative;
     z-index: -1;
     display:block;
+		max-width: 500px;
+}
 
+#first img{
+		padding-top: 50px;
+		max-width: 500px;
 }
 
 #second {
-    width: 50%;
+    width: 30%;
     height:auto;
-    float: right;
+    float: left;
     position: relative;
     z-index: -1;
     display:block;
-
+		padding-left: 20px;
 }
 
 
@@ -136,7 +140,7 @@ a:hover {
 	z-index: 9999;
 	text-align: left;
 	margin-left: 20px;
-	margin-top: 90px;
+	margin-top: 30px;
 	visibility: visible;
 
 }
@@ -175,8 +179,8 @@ a:hover {
     pointer-events: auto;
 }
 
-@media only screen 
-  and (min-device-width : 375px) 
+@media only screen
+  and (min-device-width : 375px)
   and (max-device-width : 667px) {
 
   #container {
