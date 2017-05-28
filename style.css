@@ -1,7 +1,8 @@
 body {
 	margin:0px;
 	padding:0px;
-	background-color: #d3d3d3;
+	background-color: #000;
+	color: white;
 	visibility: hidden;
 
 }
@@ -55,22 +56,11 @@ body {
     z-index: -1;
     display:block;
 		padding-left: 20px;
+		/*font-size: 24px;*/
 }
 
-
-#third {
-    width: 50%;
-    float: left;
-    position: relative;
-    z-index: -1;
-
-}
-
-#fourth {
-    width: 50%;
-    float: right;
-    position: relative;
-    z-index: -1;
+#second ul li{
+	padding-bottom: 20px;
 }
 
 img{
@@ -81,13 +71,13 @@ img{
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none; /* no underline */
 
 }
 
 a:hover {
-  color: dimgrey;
+  color: lightgrey;
 }
 
 #title {
@@ -136,10 +126,10 @@ a:hover {
   position: relative;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-	font-size: 18px;
+  font-size: 24px;
 	z-index: 9999;
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-top: 30px;
 	visibility: visible;
 
