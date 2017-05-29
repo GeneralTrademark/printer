@@ -1,7 +1,7 @@
 body {
 	margin:0px;
 	padding:0px;
-	background-color: #000;
+	background-color: rgb(25, 27, 26);
 	color: white;
 	visibility: hidden;
 
@@ -34,7 +34,7 @@ body {
 }
 
 #first {
-    width: 50%;
+    width: 100%;
     height:auto;
     float: left;
     position: relative;
@@ -44,7 +44,7 @@ body {
 }
 
 #first img{
-		padding-top: 50px;
+		padding-top: 25px;
 		max-width: 500px;
 }
 
@@ -168,6 +168,38 @@ a:hover {
     opacity:1;
     pointer-events: auto;
 }
+
+@media screen and (min-width: 668px) and (max-width: 1200px) {
+		#infocontent{
+		  font-size: 16px;
+			margin-left: 0px;
+			margin-top: 40px;
+		}
+
+		#second{
+			width: 40%;
+		}
+
+		#second ul li{
+			padding-bottom: 10px;
+		}
+	}
+
+@media screen and (max-width: 668px){
+		#infocontent{
+		  font-size: 24px;
+			margin-left: 0px;
+			margin-top: 40px;
+		}
+
+		#second{
+			width: 100%;
+		}
+
+		#second ul li{
+			padding-bottom: 10px;
+		}
+	}
 
 @media only screen
   and (min-device-width : 375px)
